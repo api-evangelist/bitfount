@@ -1,0 +1,32 @@
+generated: '2026-07-18'
+method: searched
+source: https://docs.bitfount.com/guides/SDK/for-data-custodians/setting-up/authentication-authorisation-options
+docs: https://docs.bitfount.com/guides/SDK/for-data-custodians/setting-up/authentication-authorisation-options
+summary:
+  types: [oauth2, apiKey]
+  api_key_in: [header]
+  oauth2_flows: [interactive-login]
+  identity_host: am.hub.bitfount.com
+schemes:
+- name: InteractiveLogin
+  type: oauth2
+  description: >-
+    Default mechanism. Running a pod or SDK session opens a browser-based login
+    against the Bitfount Hub access manager (am.hub.bitfount.com); the user
+    authenticates and the SDK caches the resulting access token for subsequent
+    API calls to hub.bitfount.com.
+  sources: [https://docs.bitfount.com/guides/SDK/for-data-custodians/setting-up/authentication-authorisation-options]
+- name: PodApiKeys
+  type: apiKey
+  description: >-
+    Non-interactive alternative for unattended pods. Each pod can be assigned a
+    key pair (accessKeyID + accessKey) created in the Bitfount Hub under
+    My Pods > API Keys. The pod authenticates on initialisation using these
+    values, avoiding the interactive web login.
+  fields: [accessKeyID, accessKey]
+  managed_at: https://hub.bitfount.com/
+  sources: [https://docs.bitfount.com/guides/SDK/for-data-custodians/setting-up/authentication-authorisation-options]
+notes: >-
+  Bitfount publishes no public OpenAPI spec; the SDK wraps a private REST API on
+  hub.bitfount.com. This profile is captured from the documentation, not derived
+  from a machine-readable security scheme.
