@@ -1,0 +1,29 @@
+generated: '2026-07-18'
+method: searched
+source: https://pypi.org/project/bitfount/
+packages:
+- language: python
+  registry: pypi
+  name: bitfount
+  url: https://pypi.org/project/bitfount/
+  install: pip install bitfount
+  version: 11.3.0
+  license: Apache-2.0
+  requires_python: '>=3.12,<3.13'
+  repository: https://github.com/bitfount/bitfount/
+  official: true
+  description: >-
+    Official Bitfount Python SDK — a machine learning and federated learning
+    library that provides typed wrappers around the Bitfount REST API for
+    connecting data sources (pods), running federated tasks, and building
+    privacy-preserving data collaboration networks.
+- language: docker
+  registry: ghcr
+  name: bitfount/pod
+  url: https://github.com/bitfount/docker-images
+  install: docker pull ghcr.io/bitfount/pod:stable
+  official: true
+  description: >-
+    Official container image for running a Bitfount Pod (Processor Of Data)
+    without installing the Python SDK locally. Published to GitHub Container
+    Registry.

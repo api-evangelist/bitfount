@@ -1,0 +1,39 @@
+# Bitfount
+
+> Bitfount is a full-stack federated AI and data science platform. It "sends the AI model to the data" so organisations can train, fine-tune, evaluate, and run inference on sensitive datasets that never leave the data owner's infrastructure. Developers interact with the platform through the open-source Bitfount Python SDK (typed wrappers around the Bitfount REST API), a no-code desktop app, or a Docker pod image. Common use cases: federated learning, federated evaluation, private set intersection and analytics, clinical trials, biomedical research, and trusted research environments.
+
+## APIs
+
+- [Bitfount SDK & REST API](https://docs.bitfount.com/api/bitfount): Python SDK wrapping the Bitfount REST API on hub.bitfount.com — pods, tasks, algorithms, protocols, and hub interactions.
+
+## Docs
+
+- [Documentation home](https://docs.bitfount.com/): Guides, tutorials, and full SDK API reference.
+- [Getting started / About Bitfount](https://docs.bitfount.com/guides/getting-started/about-bitfount): What Bitfount is and how the pieces fit together.
+- [Guides](https://docs.bitfount.com/guides/getting-started/about-bitfount): Setting up an account, installing the SDK, running pods and tasks.
+- [Tutorials](https://docs.bitfount.com/tutorials/introduction): Interactive notebooks for creating pods and running federated tasks.
+- [API Reference](https://docs.bitfount.com/api/bitfount): Full technical reference for the open-source SDK.
+- [Authentication & Authorisation](https://docs.bitfount.com/guides/SDK/for-data-custodians/setting-up/authentication-authorisation-options): Interactive Hub login vs. pod API keys (accessKeyID / accessKey).
+
+## SDKs & Packages
+
+- [bitfount on PyPI](https://pypi.org/project/bitfount/): `pip install bitfount` — official Python SDK, Apache-2.0, Python 3.12.
+- [Pod Docker image](https://github.com/bitfount/docker-images): `docker pull ghcr.io/bitfount/pod:stable`.
+- [GitHub organisation](https://github.com/bitfount): Source, tutorials, and docker-image licensing.
+
+## Platform
+
+- [Bitfount Hub](https://hub.bitfount.com/): Developer portal — manage pods, API keys, tasks, and datasets.
+- [Product platform](https://www.bitfount.com/product/platform): Full-stack federated AI and data science platform.
+- [Downloads](https://www.bitfount.com/downloads): Desktop app and deployment options.
+
+## Trust & Security
+
+- [Trust Center](https://trust.bitfount.com/): Security and compliance posture (ISO 27001 accreditation; privacy-enhancing technologies).
+- [Privacy policy](https://www.bitfount.com/privacy-policy)
+
+## About
+
+- [Blog](https://www.bitfount.com/blog)
+- [About us](https://www.bitfount.com/company/about-us)
+- [Contact](https://www.bitfount.com/contact)

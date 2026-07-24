@@ -1,0 +1,24 @@
+generated: '2026-07-18'
+method: searched
+source: https://trust.bitfount.com/
+url: https://trust.bitfount.com/
+certifications:
+- ISO 27001
+compliance_context:
+- GDPR
+- HIPAA
+privacy_model: >-
+  Federated / privacy-by-design. Data remains behind the customer's firewall on
+  their own infrastructure at all times; the AI model is sent to the data rather
+  than the data being centralised. Built-in privacy-enhancing technologies (PETs)
+  including differential privacy and private set intersection.
+evidence:
+- source: https://www.bitfount.com/
+  claim: Bitfount holds ISO 27001 accreditation (stated on the marketing site)
+- source: https://trust.bitfount.com/
+  claim: Dedicated Trust Center linked from the site footer
+notes: >-
+  Trust Center is a JavaScript single-page app, so an automated keyword probe
+  cannot read its certification list; ISO 27001 is corroborated by the public
+  marketing site. GDPR/HIPAA listed as compliance context (regulated
+  healthcare/research use cases), not asserted as formal audited certifications.

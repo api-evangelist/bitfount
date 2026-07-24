@@ -1,0 +1,21 @@
+generated: '2026-07-18'
+method: searched
+source: https://pypi.org/project/bitfount/
+versioning:
+  scheme: semver
+  current: 11.3.0
+  distribution: pypi
+  docs: https://docs.bitfount.com/
+  notes: >-
+    Bitfount ships as a versioned Python SDK on PyPI (semantic versioning) plus a
+    rolling `stable` Docker image tag (ghcr.io/bitfount/pod:stable). The backing
+    REST API on hub.bitfount.com is not independently versioned in public docs.
+deprecation:
+  policy_url: null
+  sunset_header: false
+  notes: No published API deprecation / Sunset-header policy found.
+sla:
+  url: null
+  uptime_target: null
+status_page: null
+deprecated_operations: []

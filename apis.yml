@@ -1,7 +1,30 @@
 aid: bitfount
 name: Bitfount
-description: Bitfount is a company surfaced as a portfolio company of speedinvest and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Bitfount is a full-stack federated AI and data science platform that lets
+  organisations train, fine-tune, evaluate, and run inference on sensitive data
+  without moving it. Instead of centralising data, Bitfount "sends the AI model to
+  the data" — datasets stay behind the owner's firewall on their own
+  infrastructure at all times, protected by built-in privacy-enhancing
+  technologies (differential privacy, private set intersection). Developers work
+  through the open-source Bitfount Python SDK (typed wrappers around the Bitfount
+  REST API on hub.bitfount.com), a no-code desktop app, or a Docker pod image.
+  Typical use cases include federated learning, federated evaluation, clinical
+  trials, biomedical research, trusted research environments, and cross-party data
+  partnerships. Backed by speedinvest.
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://raw.githubusercontent.com/api-evangelist/bitfount/refs/heads/main/apis.yml
 url: https://raw.githubusercontent.com/api-evangelist/bitfount/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,15 +34,81 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
-apis: []
+- Federated Learning
+- Machine Learning
+- Data Science
+- Privacy
+- Artificial Intelligence
+- Healthcare
+- Python SDK
+- Data Collaboration
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+apis:
+- name: Bitfount SDK & REST API
+  description: >-
+    The Bitfount Python SDK wraps the Bitfount REST API (hub.bitfount.com) to
+    connect data sources as pods, run federated tasks and algorithms, and manage
+    models and datasets across a federated data collaboration network. No public
+    OpenAPI is published; the SDK is the documented interface.
+  humanURL: https://docs.bitfount.com/api/bitfount
+  baseURL: https://hub.bitfount.com
+  properties:
+  - type: Documentation
+    url: https://docs.bitfount.com/
+  - type: APIReference
+    url: https://docs.bitfount.com/api/bitfount
+  - type: Authentication
+    url: authentication/bitfount-authentication.yml
 common:
 - type: Website
   url: https://bitfount.com
+- type: DeveloperPortal
+  url: https://hub.bitfount.com/
+- type: Documentation
+  url: https://docs.bitfount.com/
+- type: APIReference
+  url: https://docs.bitfount.com/api/bitfount
+- type: GettingStarted
+  url: https://docs.bitfount.com/guides/getting-started/about-bitfount
+- type: Blog
+  url: https://www.bitfount.com/blog
+- type: GitHubOrganization
+  url: https://github.com/bitfount
+- type: SignUp
+  url: https://hub.bitfount.com/signup
+- type: Login
+  url: https://bitfount.com/login
+- type: PrivacyPolicy
+  url: https://www.bitfount.com/privacy-policy
+- type: Compliance
+  url: https://trust.bitfount.com/
+- type: Packages
+  url: packages/bitfount-packages.yml
+- type: SDKs
+  url: packages/bitfount-packages.yml
+- type: Authentication
+  url: authentication/bitfount-authentication.yml
+- type: DomainSecurity
+  url: security/bitfount-domain-security.yml
+- type: TrustCenter
+  url: security/bitfount-trust-center.yml
+- type: Conformance
+  url: conformance/bitfount-conformance.yml
+- type: Lifecycle
+  url: lifecycle/bitfount-lifecycle.yml
+- type: ChangeLog
+  url: changelog/bitfount-changelog.yml
+- type: LLMsTxt
+  url: llms/bitfount-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

@@ -1,0 +1,33 @@
+generated: '2026-07-18'
+method: searched
+source: https://pypi.org/project/bitfount/#history
+scheme: semver
+current_version: 11.3.0
+distribution: pypi
+notes: >-
+  Bitfount publishes no dated prose changelog on its docs site or GitHub Releases;
+  the authoritative dated release record is the PyPI release history of the
+  `bitfount` SDK. Entries below are the recent release window (dates = PyPI upload
+  date). Per-release notes are not published, so highlights are omitted rather
+  than fabricated.
+entries:
+- version: 11.3.0
+  date: '2026-05-06'
+- version: 11.2.0
+  date: '2026-04-20'
+- version: 11.1.0
+  date: '2026-03-18'
+- version: 11.0.0
+  date: '2026-01-07'
+  breaking: true
+- version: 10.0.1
+  date: '2025-12-23'
+- version: 10.0.0
+  date: '2025-12-19'
+  breaking: true
+- version: 9.0.0
+  date: '2025-12-08'
+  breaking: true
+- version: 8.0.0
+  date: '2025-12-02'
+  breaking: true

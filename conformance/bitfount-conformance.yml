@@ -1,0 +1,22 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.bitfount.com/
+standards:
+- id: iso-27001
+  conforms: true
+  evidence: Bitfount states ISO 27001 accreditation on its marketing site and Trust Center
+- id: gdpr
+  conforms: true
+  evidence: Privacy-by-design federated architecture; data stays on-prem behind the customer firewall
+- id: oauth2
+  conforms: true
+  evidence: Interactive Hub login issues OAuth access tokens via am.hub.bitfount.com
+- id: soc2
+  conforms: false
+  evidence: No published SOC 2 report found
+- id: hipaa
+  conforms: false
+  evidence: Healthcare use cases marketed but no explicit HIPAA attestation confirmed
+- id: rfc9457-problem-details
+  conforms: false
+  evidence: No public OpenAPI or documented problem+json error contract
