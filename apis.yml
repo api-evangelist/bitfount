@@ -53,7 +53,7 @@ x-docs-hosting: cloudflare-pages
 tags:
 - Company
 - Federated Learning
-- Machine-Learning
+- Machine Learning
 - Data Science
 - Privacy
 - Artificial Intelligence
@@ -70,6 +70,7 @@ tags_raw:
 - Healthcare
 - Python SDK
 - Data Collaboration
+- Machine-Learning
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
