@@ -64,6 +64,93 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Bitfount is a company surfaced as a portfolio company of speedinvest and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Bitfount is a full-stack federated AI and data science platform that lets organisations train, fine-tune, evaluate, and run inference on sensitive data without moving it. Instead of centralising data, Bitfount "sends the AI model to the data" — datasets stay behind the owner's firewall on their own infrastructure at all times, protected by built-in privacy-enhancing technologies (differential privacy, private set intersection). Developers work through the open-source Bitfount Python SDK (typed wrappers around the Bitfount REST API on hub.bitfount.com), a no-code desktop app, or a Docker pod image. Typical use cases include federated learning, federated evaluation, clinical trials, biomedical research, trusted research environments, and cross-party data partnerships. Backed by speedinvest.
 
-Backed by: speedinvest — https://bitfount.com
+**Areas:** Company · Federated Learning · Machine Learning · Data Science · Privacy · Artificial Intelligence · Healthcare · Python SDK · Data Collaboration
+
+## Bitfount on APIs.io
+
+Everything profiled for Bitfount is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/bitfount/](https://apis.io/providers/bitfount/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Bitfount SDK & REST API](https://apis.io/apis/bitfount/bitfount-sdk-rest-api/) — The Bitfount Python SDK wraps the Bitfount REST API (hub.bitfount.com) to connect data sources as pods, run federated tasks and algorithms, and manage…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Bitfount Authentication](https://apis.io/security/bitfount/bitfount-authentication/)
+- [Bitfount Domain Security](https://apis.io/security/bitfount/bitfount-domain-security/)
+- [Bitfount Trust Center](https://apis.io/security/bitfount/bitfount-trust-center/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://bitfount.com)
+- [Documentation](https://docs.bitfount.com/)
+- [Getting started](https://docs.bitfount.com/guides/getting-started/about-bitfount)
+- [API reference](https://docs.bitfount.com/api/bitfount)
+- [Sign up](https://hub.bitfount.com/signup)
+- [Blog](https://www.bitfount.com/blog)
+- [Compliance](https://trust.bitfount.com/)
+- [Privacy policy](https://www.bitfount.com/privacy-policy)
+- [GitHub](https://github.com/bitfount)
+
+## API Evangelist rating
+
+**Kin Score 29.5** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 73.2 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 18.4 |
+| Developer ergonomics | 50.0 |
+| Access clarity | 32.9 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 19.1** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/bitfount/](https://apis.io/providers/bitfount/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Bitfount: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/bitfount/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
